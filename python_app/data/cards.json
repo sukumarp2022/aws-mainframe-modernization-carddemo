@@ -1,0 +1,42 @@
+[
+  {
+    "card_num": "0500024453765740",
+    "acct_id": "00000000001",
+    "cvv_cd": "747",
+    "embossed_name": "Aniya Von",
+    "expiration_date": "2025-03-09",
+    "active_status": "Y"
+  },
+  {
+    "card_num": "0683586198171516",
+    "acct_id": "00000000002",
+    "cvv_cd": "567",
+    "embossed_name": "Ward Jones",
+    "expiration_date": "2025-07-13",
+    "active_status": "Y"
+  },
+  {
+    "card_num": "0923877193247330",
+    "acct_id": "00000000003",
+    "cvv_cd": "028",
+    "embossed_name": "Enrico Rosenbaum",
+    "expiration_date": "2024-08-11",
+    "active_status": "Y"
+  },
+  {
+    "card_num": "0927987108636232",
+    "acct_id": "00000000004",
+    "cvv_cd": "003",
+    "embossed_name": "Carter Veum",
+    "expiration_date": "2024-03-13",
+    "active_status": "Y"
+  },
+  {
+    "card_num": "0982496213629795",
+    "acct_id": "00000000005",
+    "cvv_cd": "075",
+    "embossed_name": "Maci Robel",
+    "expiration_date": "2025-07-07",
+    "active_status": "Y"
+  }
+]

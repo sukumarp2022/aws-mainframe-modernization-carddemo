@@ -6,9 +6,12 @@
 ## Executive Summary
 CardDemo is a comprehensive mainframe application that simulates a credit card management system. Designed specifically to showcase AWS and partner technologies for mainframe migration and modernization scenarios, it provides a realistic environment for testing various modernization approaches including discovery, migration, performance testing, service enablement, and more.
 
+**This repository now includes a Python modernized version of the application in the `python_app/` directory.**
+
 ## Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
+- [Python Modernized Application](#python-modernized-application)
 - [Optional Features](#optional-features)
 - [Installation](#installation)
 - [Running Batch Jobs](#running-batch-jobs)
@@ -58,6 +61,41 @@ The application intentionally incorporates various coding styles and patterns to
 - **Additional Dataset Types**: VSAM (ESDS/RRDS), GDG, PDS
 - **Record Formats**: VB, FBA, and others
 - **Complex Copybook Structures**: REDEFINES, OCCURS, OCCURS DEPENDING ON
+
+## Python Modernized Application
+
+A complete Python modernization of the CardDemo application is available in the `python_app/` directory. This provides a modern, cloud-ready alternative that preserves all business logic from the original COBOL application.
+
+### Python Stack
+- **Python 3.9+**: Modern Python implementation
+- **Flask**: RESTful API replacing CICS transactions
+- **JSON/SQLite**: Data storage replacing VSAM files
+- **Pydantic**: Data validation and serialization
+
+### Quick Start
+```bash
+cd python_app
+pip install -e .
+
+# Run the API server
+carddemo-api
+
+# Or run batch jobs
+carddemo-batch --job calculate_interest
+```
+
+### Features Ported to Python
+- User authentication (COSGN00C → auth_service.py)
+- Account management (COACTVWC, COACTUPC → account_service.py)
+- Card management (COCRDLIC, COCRDSLC, COCRDUPC → account_service.py)
+- Transaction processing (COTRN00C, COTRN01C, COTRN02C → transaction_service.py)
+- Bill payments (COBIL00C → transaction_service.py)
+- User management (COUSR00C-03C → user_service.py)
+- Transaction posting batch (CBTRN02C → transaction_posting.py)
+- Interest calculation batch (CBACT04C → interest_calculation.py)
+- Statement generation batch (CBSTM03A → statement_generation.py)
+
+For more details, see [python_app/README.md](./python_app/README.md).
 
 ## Optional Features
 

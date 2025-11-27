@@ -1,0 +1,72 @@
+[
+  {
+    "acct_id": "00000000001",
+    "active_status": "Y",
+    "curr_bal": "1940.00",
+    "credit_limit": "20200.00",
+    "cash_credit_limit": "10200.00",
+    "open_date": "2014-11-20",
+    "expiration_date": "2025-05-20",
+    "reissue_date": "2025-05-20",
+    "curr_cyc_credit": "0.00",
+    "curr_cyc_debit": "0.00",
+    "addr_zip": "A000000000",
+    "group_id": ""
+  },
+  {
+    "acct_id": "00000000002",
+    "active_status": "Y",
+    "curr_bal": "1580.00",
+    "credit_limit": "61300.00",
+    "cash_credit_limit": "54480.00",
+    "open_date": "2013-06-19",
+    "expiration_date": "2024-08-11",
+    "reissue_date": "2024-08-11",
+    "curr_cyc_credit": "0.00",
+    "curr_cyc_debit": "0.00",
+    "addr_zip": "A000000000",
+    "group_id": ""
+  },
+  {
+    "acct_id": "00000000003",
+    "active_status": "Y",
+    "curr_bal": "1470.00",
+    "credit_limit": "49090.00",
+    "cash_credit_limit": "5380.00",
+    "open_date": "2013-08-23",
+    "expiration_date": "2024-01-10",
+    "reissue_date": "2024-01-10",
+    "curr_cyc_credit": "0.00",
+    "curr_cyc_debit": "0.00",
+    "addr_zip": "A000000000",
+    "group_id": ""
+  },
+  {
+    "acct_id": "00000000004",
+    "active_status": "Y",
+    "curr_bal": "400.00",
+    "credit_limit": "35030.00",
+    "cash_credit_limit": "27890.00",
+    "open_date": "2012-11-17",
+    "expiration_date": "2023-12-16",
+    "reissue_date": "2023-12-16",
+    "curr_cyc_credit": "0.00",
+    "curr_cyc_debit": "0.00",
+    "addr_zip": "A000000000",
+    "group_id": ""
+  },
+  {
+    "acct_id": "00000000005",
+    "active_status": "Y",
+    "curr_bal": "3450.00",
+    "credit_limit": "38190.00",
+    "cash_credit_limit": "24300.00",
+    "open_date": "2012-10-03",
+    "expiration_date": "2025-03-09",
+    "reissue_date": "2025-03-09",
+    "curr_cyc_credit": "0.00",
+    "curr_cyc_debit": "0.00",
+    "addr_zip": "A000000000",
+    "group_id": ""
+  }
+]
