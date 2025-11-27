@@ -1,0 +1,16 @@
+[
+  {
+    "user_id": "ADMIN001",
+    "first_name": "Admin",
+    "last_name": "User",
+    "password": "PASSWORD",
+    "user_type": "A"
+  },
+  {
+    "user_id": "USER0001",
+    "first_name": "Regular",
+    "last_name": "User",
+    "password": "PASSWORD",
+    "user_type": "U"
+  }
+]
